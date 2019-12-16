@@ -37,11 +37,11 @@ var mailOptions = {
    from: 'abhi27netm@gmail.com',
    to: 'abhi27netam@gmail.com, abhimanyu.netam27@gmail.com',
    subject: 'Sending Email using Node.js',
-   html: '<h1>Welcome</h1><p>That was easy!</p>' ,
+   html: '<h1>Welcome</h1><p>My first Node.js Script</p>' ,
    attachments: [{
        filename: 'Sacramentorealestatetransactions.csv',
        path: 'F:/Aptos Task/Sacramentorealestatetransactions.csv'
-       //content: 'hello world!'
+       
    }]
 }
 
